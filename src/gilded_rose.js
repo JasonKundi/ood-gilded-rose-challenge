@@ -11,6 +11,9 @@ class Shop {
   updateQuality () {
     // updateQuality() loops through items array
     for (let i = 0; i < this.items.length; i++) {
+
+      //legendaryItems()- brie, backstage, sulfuras - polymorphism?
+      
       if (this.items[i].name != AGED_BRIE && this.items[i].name != BACKSTAGE_PASSES) {
         if (this.items[i].quality > 0) {
           if (this.items[i].name != SULFURAS_RAG) {
