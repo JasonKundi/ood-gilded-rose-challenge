@@ -9,7 +9,6 @@ class BackstagePasses extends Item{
         if (this.sellIn <= 5) return this.quality + 3
         if (this.sellIn <= 10) return this.quality + 2
         return this.quality + 1
-        
 
     }
     update() {
